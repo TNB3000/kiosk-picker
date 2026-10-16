@@ -1,3 +1,10 @@
 __TTC Assets/
+# Whereabouts sales-pitch kiosk: its own repo (TNB3000/whereabouts-kiosk) nested here
+kiosk/
+# Working files from the kiosk design sessions, not part of the landing page
+.claude/
+.impeccable/
+DESIGN.md
+PRODUCT.md
 Thumbs.db
 .DS_Store
