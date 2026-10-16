@@ -5,10 +5,17 @@
   <title>Whereabouts Kiosk</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta name="description" content="Boot page for the Whereabouts kiosks: choose one of the partner kiosk experiences.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600;700;800&display=swap" rel="stylesheet">
   <style>
+    /* Gabarito (SIL Open Font License) is served from this repo so the page
+       makes no third-party requests. Variable font: one file covers 400–900. */
+    @font-face {
+      font-family: "Gabarito";
+      font-style: normal;
+      font-weight: 400 900;
+      font-display: swap;
+      src: url("fonts/gabarito-latin.woff2") format("woff2");
+    }
+
     /* Designed on a 1080×1920 portrait stage, like the partner kiosk pages.
        The stage scales to fill any 9:16 screen; 1 design px = 1 * var(--px). */
     :root {
